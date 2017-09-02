@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+::selection,
+::-moz-selection {
+  background: #e7e7f2;
+}
+
+html,
+body {
+  // height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  background-color: #aaa;
+
+  // Sans serif font stack
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+}
+
+.app {
+  height: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.wrapper {
+  line-height: 32px;
+  min-height: 100%;
+  padding-top: 60px;
+  margin: 1.2rem 0.5rem;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+
+  // Adjust styles for smaller screens
+  @media screen and (max-width: 36em) {
+    & {
+      grid-template-columns: auto;
+    }
+  }
+}

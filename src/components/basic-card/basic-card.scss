@@ -1,0 +1,55 @@
+// BEM naming conventions
+// - http://getbem.com/naming/
+// - https://en.bem.info/methodology/naming-convention/
+
+basic-card {
+    // <article> element
+    .basic-card__article {
+        margin: 0.5rem;
+
+        border-style: solid;
+        border-width: 1px;
+    
+        min-width: 18rem;
+        max-width: 24rem;
+    
+        // Adjust styles for larger screens
+        @media screen and (min-width: 30em) {
+            & {
+                max-width: 32rem;
+            }
+        }
+    }
+   
+    // Card title bar
+    // <h1> element
+    .basic-card__title {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        padding: .8rem 1rem .5rem;
+
+        font-family: Courier New, Courier, monospace;
+        font-size: 1.25rem;
+
+        background-color: #333;
+        color: #fff;
+    }
+
+    // Card main content area
+    // <div> element
+    .basic-card__content {
+        border-top-style: solid;
+        border-top-width: 1px;
+
+        padding: 1rem;
+
+        font-size: 1rem;
+        line-height: 1.4;
+
+        background-color: #fff;
+        color: #111;
+    }
+}
+
+
