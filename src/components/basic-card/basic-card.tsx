@@ -7,6 +7,8 @@ import { Component, Prop } from '@stencil/core';
 export class BasicCard {
   @Prop() title: string;
   @Prop() content: string;
+  @Prop() date: string;
+  @Prop() location: string;
 
   render() {
     return (
@@ -16,7 +18,16 @@ export class BasicCard {
         </h1>
         <div class="basic-card__content">
           {this.content}
-          {/* <my-name first="Daniel" last="Schildt"></my-name> */}
+
+          <div class="basic-card__location">
+            {/* Location:  */}
+            {this.location}
+          </div>
+          <div class="basic-card__date">
+            {/* Date:  */}
+            {this.date}
+          </div>
+
         </div>
       </article>
     );
