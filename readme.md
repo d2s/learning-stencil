@@ -1,4 +1,9 @@
-# Stencil Starter App
+# Stencil Scoreboard App
+
+Small application for displaying a virtual scoreboard, built with Stencil.
+
+
+## About Stencil
 
 Stencil is a compiler for building fast web apps using Web Components.
 
@@ -8,9 +13,10 @@ Stencil components are just Web Components, so they work in any major framework 
 
 Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
 
+
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
+To start a new project using Stencil, clone the example repo to a new directory:
 
 ```bash
 git clone git@github.com:ionic-team/stencil-starter.git my-app
