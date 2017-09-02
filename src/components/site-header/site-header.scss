@@ -9,6 +9,9 @@ site-header {
   // backdrop-filter: saturate(180%) blur(20px);
   z-index: 99;
 
+  // - RGBA version of the site's bg color
+  box-shadow: inset 0px -5px 25px 3px rgba(190, 168, 198, 0.40);
+  
   .logo-link a {
     margin: 0;
   }
