@@ -8,15 +8,15 @@ export class SiteHeader {
   render() {
     return (
       <div class="site-header">
-        <stencil-route-link router="#router" url="/" class="logo-link">
+        <stencil-route-link url="/" class="logo-link" exact={true}>
           {/* <img class="logo" src="/img/text-logo.svg" /> */}
           Scoreboard
         </stencil-route-link>
         <div class="pull-right">
-          <stencil-route-link router="#router" url="/">
+          <stencil-route-link url="/" exact={true}>
             Scoreboard
           </stencil-route-link>
-          <stencil-route-link router="#router" url="/about">
+          <stencil-route-link url="/about" exact={true}>
             About
           </stencil-route-link>
         </div>

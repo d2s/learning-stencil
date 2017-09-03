@@ -17,13 +17,11 @@ export class BasicCard {
           <stencil-route
             url="/"
             component="home-page"
-            router="#router"
             exact={true}
           />
 
           <stencil-route
             url="/about"
-            router="#router"
             component="about-page"
           />
 

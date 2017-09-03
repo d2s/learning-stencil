@@ -24,6 +24,7 @@ site-header {
     padding: 20px 15px;
     max-width: 1080px;
     margin: auto;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -31,9 +32,11 @@ site-header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -44,17 +47,16 @@ site-header {
     height: 27px;
   }
 
+  // Additional link styles for the top header's navigation
   stencil-route-link a,
   a {
-    font-size: 16px;
-    margin: 0;
     padding: 0.5rem 1rem;
     color: #484854;
     text-decoration: none;
 
-    &:hover {
-      background-color: red;
-    }
+    // &.link-active {
+    //   background-color: #fff;
+    // }
   }
 
   .pull-right {
