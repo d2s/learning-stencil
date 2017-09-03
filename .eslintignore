@@ -1,0 +1,5 @@
+# Always ignore node_modules.
+**/node_modules/**/*.*
+
+# Ignore minified JavaScript files
+**/*{.,-}min.js
