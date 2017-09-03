@@ -14,22 +14,28 @@ Stencil components are just Web Components, so they work in any major framework 
 Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
 
 
-## Getting Started
+## Starting the application
 
-To start a new project using Stencil, clone the example repo to a new directory:
+To start this application locally on your computer, clone the repository to a new directory:
 
 ```bash
-git clone git@github.com:ionic-team/stencil-starter.git my-app
-cd my-app
-git remote rm origin
+git clone git@github.com:d2s/learning-stencil.git learning-stencil
+cd learning-stencil
 ```
 
-and run:
+Then, run the command to install the 3rd party dependencies:
 
 ```bash
 npm install
+```
+
+After that, you can start the local development environment. It will also open a new tab to your local web browser, allowing you to view the latest changes, with browser refreshing automatically when the source files are modified and saved.
+
+```bash
 npm start
 ```
+
+### More details about other npm script tasks
 
 To view the build, start an HTTP server inside of the `/www` directory.
 
