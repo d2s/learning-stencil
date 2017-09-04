@@ -11,10 +11,8 @@ export class DocumentComponent {
   @Prop() video: string;
   render() {
     return (
-      <div>
-        <div class="videoWrapper">
-          <iframe frameBorder="0" allowFullScreen={true} width="380" height="250" src={'https://www.youtube.com/embed/'+this.video} ></iframe>
-        </div>
+      <div class="videoWrapper">
+        <iframe frameBorder="0" allowFullScreen={true} width="380" height="250" src={'https://www.youtube.com/embed/'+this.video} ></iframe>
       </div>
     );
   }
