@@ -1,5 +1,5 @@
 {
-  "name": "@stencil/starter",
+  "name": "learning-stencil",
   "private": true,
   "version": "0.0.1",
   "description": "Stencil Starter App",
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-starter.git"
+    "url": "git+https://github.com/d2s/learning-stencil.git"
   },
-  "author": "Ionic Team",
+  "author": "Daniel Schildt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/d2s/learning-stencil/issues"
   },
-  "homepage": "https://github.com/ionic-team/stencil"
+  "homepage": "https://github.com/d2s/learning-stencil/pulls"
 }
