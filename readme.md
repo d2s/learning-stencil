@@ -2,6 +2,8 @@
 
 Small application for displaying a virtual scoreboard, built with Stencil.
 
+[ ![Codeship Status for d2s/learning-stencil](https://app.codeship.com/projects/c76b4400-738f-0135-c4ee-765c77b16925/status?branch=master)](https://app.codeship.com/projects/243781)
+
 
 ## About Stencil
 
