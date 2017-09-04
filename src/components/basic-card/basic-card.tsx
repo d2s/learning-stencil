@@ -10,6 +10,7 @@ export class BasicCard {
   @Prop() description: string;
   @Prop() date: string;
   @Prop() location: string;
+  @Prop() youtube_video: string;
 
   render() {
     return (
@@ -27,6 +28,10 @@ export class BasicCard {
             : <div class="basic-card__content__text">No details about this.</div>
           }
 
+          {this.youtube_video
+            ? <div class="basic-card__video"><youtube-video video={this.youtube_video}/></div>
+            : <span></span> 
+          }
 
           {this.location
             ? <div class="basic-card__location">{this.location}</div>
