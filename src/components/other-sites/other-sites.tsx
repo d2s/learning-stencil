@@ -14,7 +14,7 @@ export class OtherSites {
    * When boolean value is 1, show service names.
    * When boolean value is 0, hide service names.
    */
-  // getNames(): string {
+  // showNames(): string {
   //   if (this.names == true) {
   //     return `aa`;
   //   } else if (this.names == false) {
@@ -41,7 +41,7 @@ export class OtherSites {
   render() {
     return (
       <ul>
-        {/* <li>{this.getNames()} Twitter: <a href={this.getTwitter()}>{this.twitter}</a></li> */}
+        {/* <li>{this.showNames()} Twitter: <a href={this.getTwitter()}>{this.twitter}</a></li> */}
         <li>Twitter: <a href={this.getTwitter()}>{this.twitter}</a></li>
         <li>GitHub: <a href={this.getGitHub()}>{this.github}</a></li>
       </ul>
