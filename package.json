@@ -12,6 +12,9 @@
     "serve": "stencil-dev-server",
     "start": "npm run dev"
   },
+  "engines": {
+    "node": ">=8.4 <9"
+  },
   "dependencies": {
     "@stencil/core": "0.0.5-12",
     "@stencil/router": "0.0.9"
