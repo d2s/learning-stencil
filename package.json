@@ -1,7 +1,7 @@
 {
   "name": "learning-stencil",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stencil Starter App",
   "files": [
     "dist"
@@ -16,7 +16,7 @@
     "node": ">=8.4 <9"
   },
   "dependencies": {
-    "@stencil/core": "0.0.6",
+    "@stencil/core": "0.0.7-1",
     "@stencil/router": "0.0.17"
   },
   "devDependencies": {
