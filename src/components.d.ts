@@ -218,7 +218,6 @@ declare global {
           mode?: string,
           color?: string,
         
-          names?: boolean,
           twitter?: string,
           github?: string
       }

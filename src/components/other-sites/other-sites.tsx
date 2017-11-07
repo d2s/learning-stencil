@@ -6,21 +6,8 @@ import { Component, Prop } from '@stencil/core';
 })
 export class OtherSites {
 
-  @Prop() names: boolean;
   @Prop() twitter: string;
   @Prop() github: string;
-
-  /**
-   * When boolean value is 1, show service names.
-   * When boolean value is 0, hide service names.
-   */
-  // showNames(): string {
-  //   if (this.names == true) {
-  //     return `aa`;
-  //   } else if (this.names == false) {
-  //     return ``;
-  //   }
-  // }
 
   /**
    * Output full Twitter URL based on the username
@@ -37,11 +24,9 @@ export class OtherSites {
     return `https://github.com/${this.github}`;
   }
 
-
   render() {
     return (
       <ul>
-        {/* <li>{this.showNames()} Twitter: <a href={this.getTwitter()}>{this.twitter}</a></li> */}
         <li>Twitter: <a href={this.getTwitter()}>{this.twitter}</a></li>
         <li>GitHub: <a href={this.getGitHub()}>{this.github}</a></li>
       </ul>

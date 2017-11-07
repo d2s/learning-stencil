@@ -14,7 +14,7 @@ export class AboutPage {
 
         <basic-card title="About the site" description="This is a basic prototype of a scoreboard app, made with Web Components using Stencil.js tools." date="2017" />
 
-        <other-sites names="0" twitter="autiomaa" github="d2s" />
+        <other-sites twitter="autiomaa" github="d2s" />
 
       </div>
     );
