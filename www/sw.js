@@ -20,43 +20,39 @@ importScripts('workbox-sw.prod.v2.1.1.js');
 const fileManifest = [
   {
     "url": "build/app.js",
-    "revision": "54c6fe6a77cda4d80ff67d0fe2fd4ebd"
+    "revision": "4d9ccbaac6fedc4f5fee568f12c849fc"
   },
   {
-    "url": "build/app/2txpa8gx.js",
-    "revision": "24aca4765251aa664846c63320df5060"
+    "url": "build/app/app.ex5sm5gn.js",
+    "revision": "96cfb527fb16b3745df3b17fb608b8f0"
   },
   {
     "url": "build/app/app.global.js",
     "revision": "905896db4c96c2ffe4285cd63c098ca5"
   },
   {
-    "url": "build/app/app.ldpuklsb.js",
-    "revision": "bff82b3d901d61e7a4f524958035cf96"
+    "url": "build/app/app.hnjisf54.js",
+    "revision": "60ba8cef18c6e4d8ec6353a655461bac"
   },
   {
     "url": "build/app/app.registry.json",
-    "revision": "11d6c23145ab42094cee53c049eb3174"
+    "revision": "1c37cbc52da34e4f38fb49835b16b8d9"
   },
   {
-    "url": "build/app/app.ubbz8hou.pf.js",
-    "revision": "80117c142792518b79372ae6c775111d"
+    "url": "build/app/hoagqr89.js",
+    "revision": "71109d3e530d642a1a9584b82ba3768b"
   },
   {
-    "url": "build/app/bvnmhjep.js",
-    "revision": "54a474ce8f59f0b5a52f29ce49811d66"
-  },
-  {
-    "url": "build/app/eyjkbzds.js",
-    "revision": "de33059c02e2a28e7603e31b540bc1d2"
+    "url": "build/app/kw6fdfrx.js",
+    "revision": "e8eafa17c452c0ba57062c5b49396b7a"
   },
   {
     "url": "build/app/n4gut1z5.js",
     "revision": "ec4080398ed11039b20cf0c94de4187a"
   },
   {
-    "url": "build/app/qkqczmoc.js",
-    "revision": "d351c6f59a1b041fd7840d7301b64dac"
+    "url": "build/app/nwcmwbhr.js",
+    "revision": "3269b3d1a18de454047ecf75b648e08b"
   },
   {
     "url": "build/app/wawblzzc.js",
@@ -67,16 +63,16 @@ const fileManifest = [
     "revision": "625655b95ca6b58f59f5576bbda0c9ff"
   },
   {
+    "url": "build/app/xkguvzhd.js",
+    "revision": "382c525e67c39b66187e34644d56a887"
+  },
+  {
     "url": "favicon.ico",
     "revision": "d2f619d796fbe8bed6200da2691aa5b6"
   },
   {
     "url": "index.html",
     "revision": "e8431510a024223ec8ae77bc5904eab9"
-  },
-  {
-    "url": "workbox-sw.prod.v2.0.1.js",
-    "revision": "679d4e73dc756b21e46ee8f1bb52c882"
   }
 ];
 
