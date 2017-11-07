@@ -9,7 +9,6 @@ Small application for displaying a virtual scoreboard, built with Stencil.
 [ ![Codeship Status for d2s/learning-stencil](https://app.codeship.com/projects/c76b4400-738f-0135-c4ee-765c77b16925/status?branch=master)](https://app.codeship.com/projects/243781)
 
 
-
 ## About Stencil
 
 [Stencil](https://stenciljs.com/) is a compiler for building fast web apps using Web Components.
@@ -26,7 +25,7 @@ Stencil also enables a number of key capabilities on top of Web Components, in p
 To start this application locally on your computer, clone the repository to a new directory:
 
 ```bash
-git clone git@github.com:d2s/learning-stencil.git learning-stencil
+git clone https://github.com/d2s/learning-stencil.git learning-stencil
 cd learning-stencil
 ```
 
