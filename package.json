@@ -10,14 +10,17 @@
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
     "serve": "stencil-dev-server",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=8.4 <9"
   },
   "dependencies": {
     "@stencil/core": "0.0.7-1",
-    "@stencil/router": "0.0.17"
+    "@stencil/router": "0.0.17",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "@stencil/dev-server": "0.0.17",
@@ -34,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/d2s/learning-stencil/issues"
   },
-  "homepage": "https://github.com/d2s/learning-stencil/pulls"
+  "homepage": "https://github.com/d2s/learning-stencil/pulls",
+  "snyk": true
 }
