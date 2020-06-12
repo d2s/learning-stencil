@@ -23,7 +23,7 @@
     "@stencil/dev-server": "0.0.17",
     "@stencil/utils": "latest",
     "@types/jest": "26.0.0",
-    "jest": "21.3.0-beta.15"
+    "jest": "26.0.1"
   },
   "repository": {
     "type": "git",
