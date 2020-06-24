@@ -22,7 +22,7 @@
   "devDependencies": {
     "@stencil/dev-server": "0.0.17",
     "@stencil/utils": "latest",
-    "@types/jest": "26.0.2",
+    "@types/jest": "26.0.3",
     "jest": "26.1.0"
   },
   "repository": {
