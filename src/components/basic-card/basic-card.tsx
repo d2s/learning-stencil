@@ -1,11 +1,11 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'basic-card',
-  styleUrl: 'basic-card.scss'
+  styleUrl: 'basic-card.css'
 })
 export class BasicCard {
-  @Prop() title: string;
+  @Prop() component_title: string;
   @Prop() content: string;
   @Prop() description: string;
   @Prop() date: string;
@@ -16,8 +16,8 @@ export class BasicCard {
     return (
       <article class="basic-card__article mv4">
         <h1 class="basic-card__title">
-          {this.title
-            ? <span>{this.title}</span>
+          {this.component_title
+            ? <span>{this.component_title}</span>
             : <span>Heading title missing</span>
           }
         </h1>
@@ -30,7 +30,7 @@ export class BasicCard {
 
           {this.youtube_video
             ? <div class="basic-card__video"><youtube-video video={this.youtube_video}/></div>
-            : <span></span> 
+            : <span></span>
           }
 
           {this.location

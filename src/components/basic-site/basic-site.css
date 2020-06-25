@@ -1,7 +1,7 @@
-// Variables for the component
-$border-radius: 8px;
-$border-bottom-radius: $border-radius - 4px;
-
+:root {
+  --border-radius: 8px;
+  --border-bottom-radius: var(--border-radius) - 4px;
+}
 
 * {
   box-sizing: border-box;
@@ -14,14 +14,14 @@ $border-bottom-radius: $border-radius - 4px;
 
 html,
 body {
-  // height: 100%;
+  /* height: 100%; */
   width: 100%;
   padding: 0;
   margin: 0;
 
   background-color: #bea8c6;
 
-  // Sans serif font stack
+  /* Sans serif font stack */
   font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 }
 
@@ -41,7 +41,7 @@ body {
   grid-template-columns: auto auto;
   grid-template-rows: auto;
 
-  // Adjust styles for smaller screens
+  /* Adjust styles for smaller screens */
   @media screen and (max-width: 36em) {
     & {
       grid-template-columns: auto;
@@ -49,7 +49,7 @@ body {
   }
 }
 
-// Link styles
+/* Links */
 stencil-route-link a,
 a {
   color: #060093;
@@ -57,30 +57,34 @@ a {
   padding: 0.2rem 0.3rem;
   margin: 0 0.1rem;
 
-  border-radius: $border-radius;
+  border-radius: var(--border-radius);
+}
 
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.70);
-    color: #010037;
-    box-shadow: inset 0px 0px 5px 3px rgba(84, 84, 84, 0.05);
-  }
+stencil-route-link a:hover,
+a:hover {
+  background-color: rgba(255, 255, 255, 0.70);
+  color: #010037;
+  box-shadow: inset 0px 0px 5px 3px rgba(84, 84, 84, 0.05);
+}
 
-  &.link-active {
-    background-color: #fff;
-    color: #010037;
-    font-weight: bold;
-  }
+stencil-route-link a.link-active,
+a.link-active {
+  background-color: #fff;
+  color: #010037;
+  font-weight: bold;
+}
 
-  // - Hide background color from the logo link
-  // - Override text color change caused by .link-active class
-  .logo-link & {
-    background-color: transparent !important;
-    color: #484854 !important;
-  }
+/*
+  - Hide background color from the logo link
+  - Override text color change caused by .link-active class
+*/
+.logo-link stencil-route-link a,
+.logo-link a {
+  background-color: transparent !important;
+  color: #484854 !important;
 }
 
 stencil-route-link:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-

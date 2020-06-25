@@ -1,8 +1,8 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'other-sites',
-  styleUrl: 'other-sites.scss'
+  styleUrl: 'other-sites.css'
 })
 export class OtherSites {
 

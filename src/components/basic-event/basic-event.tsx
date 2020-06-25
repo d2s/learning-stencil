@@ -1,8 +1,8 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'basic-event',
-  styleUrl: 'basic-event.scss'
+  styleUrl: 'basic-event.css'
 })
 export class BasicEvent {
   @Prop() name: string = 'No name';

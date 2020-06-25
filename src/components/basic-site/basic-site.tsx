@@ -1,11 +1,11 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'basic-site',
-  styleUrl: 'basic-site.scss'
+  styleUrl: 'basic-site.css'
 })
 export class BasicCard {
-  @Prop() title: string;
+  @Prop() component_title: string;
 
   render() {
     return (

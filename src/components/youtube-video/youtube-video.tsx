@@ -1,4 +1,4 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 // Usage example:
 //    <youtube-video video="UfD-k7aHkQE"/>
@@ -8,7 +8,7 @@ import { Component, Prop } from '@stencil/core';
 
 @Component({
   tag: 'youtube-video',
-  styleUrl: 'youtube-video.scss'
+  styleUrl: 'youtube-video.css'
 })
 export class DocumentComponent {
   @Prop() video: string;

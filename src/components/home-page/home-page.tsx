@@ -1,9 +1,9 @@
 
-import { Component } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'home-page',
-  styleUrl: 'home-page.scss'
+  styleUrl: 'home-page.css'
 })
 
 export class HomePage {
