@@ -3,10 +3,9 @@
 Small application for displaying a virtual scoreboard, built with Stencil.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4d8be136cf3c4c0a8aef6c188b1811da)](https://www.codacy.com/app/danielschildt_3392/learning-stencil?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=d2s/learning-stencil&amp;utm_campaign=Badge_Grade)
-[![Dependency Status](https://www.versioneye.com/user/projects/59ad3f016725bd003dcaca4e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59ad3f016725bd003dcaca4e)
 [![dependencies Status](https://david-dm.org/d2s/learning-stencil/status.svg)](https://david-dm.org/d2s/learning-stencil)
 [![Known Vulnerabilities](https://snyk.io/test/github/d2s/learning-stencil/badge.svg)](https://snyk.io/test/github/d2s/learning-stencil)
-[ ![Codeship Status for d2s/learning-stencil](https://app.codeship.com/projects/c76b4400-738f-0135-c4ee-765c77b16925/status?branch=master)](https://app.codeship.com/projects/243781)
+[![Codeship Status for d2s/learning-stencil](https://app.codeship.com/projects/c76b4400-738f-0135-c4ee-765c77b16925/status?branch=master)](https://app.codeship.com/projects/243781)
 
 
 ## About Stencil
