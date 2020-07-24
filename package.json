@@ -23,7 +23,7 @@
   "devDependencies": {
     "@stencil/dev-server": "0.0.17",
     "@stencil/utils": "latest",
-    "@types/jest": "26.0.6",
+    "@types/jest": "26.0.7",
     "jest": "26.1.0",
     "workbox-build": "5.1.3"
   },
