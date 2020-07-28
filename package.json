@@ -17,7 +17,7 @@
     "node": ">=8.4 <9"
   },
   "dependencies": {
-    "@stencil/core": "1.17.1",
+    "@stencil/core": "1.17.2",
     "@stencil/router": "1.0.1"
   },
   "devDependencies": {
