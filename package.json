@@ -21,7 +21,7 @@
     "@stencil/router": "1.0.1"
   },
   "devDependencies": {
-    "@stencil/dev-server": "0.0.17",
+    "@stencil/dev-server": "0.0.18",
     "@stencil/utils": "latest",
     "@types/jest": "26.0.9",
     "jest": "26.2.2",
