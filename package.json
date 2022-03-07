@@ -14,7 +14,7 @@
     "generate": "stencil generate"
   },
   "engines": {
-    "node": ">=8.4 <9"
+    "node": ">=8.4 <17"
   },
   "dependencies": {
     "@stencil/core": "2.3.0",
